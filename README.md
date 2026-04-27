@@ -1,13 +1,13 @@
 # Environmental Toxin Analysis in River Systems Project
 
-A short description of your data analysis project: what dataset you used, why you analyzed it, and the problem or question you aimed to answer.  
+ The project is to conduct an exploratory data analysis on EcoGuard's river toxin data using Python. 
 
-[Notebook Link](https://github.com/Kurodataio/River-Toxin-Analysis.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/Environmental Toxin Analysis in River Systems.ipynb)  
 
 ---
 
 ## Table of Contents
-
+S
 - [Overview](#overview)  
 - [Dataset](#dataset)  
 - [Technologies Used](#technologies-used)  
