@@ -32,10 +32,8 @@ The task will be to perform an exploratory data analysis on the river toxin data
 
 ## Dataset
 
-Provide details about the dataset used:
-
 - The dataset is sourced from ITOnlinelearning/Kaggle
-- The dataset has # rows and # columns/features
+- The dataset has 1305 rows and 10 columns/features
 - The Key features/columns used are various toxin levels, pH levels, temperature, and geographical data
 - Any preprocessing or cleaning steps  
 
@@ -91,7 +89,7 @@ Instructions for using the project:
 
 Include screenshots of your visualizations if available:  
 
- 
+ ![Visualization Example](images/screenshot.png) 
 
 ---
 
