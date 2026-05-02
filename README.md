@@ -83,13 +83,13 @@ jupyter notebook
 
 Instructions for using the project:
 
-1. Open the main notebook (`Environmental_Toxin_Analysis_in_River_Systems.ipynbb`)  
+1. Open the main notebook (`Environmental_Toxin_Analysis_in_River_Systems.ipynb`)  
 2. Run each cell sequentially to reproduce the analysis  
 3. Visualizations and results will be generated automatically  
 
 Include screenshots of your visualizations if available:  
 
- ![Visualization Example](images/screenshot.png) 
+ ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png) 
 
 ---
 
@@ -98,7 +98,7 @@ Include screenshots of your visualizations if available:
 Summarize your findings, insights, and visualizations:
 
 - Describe the key trends and patterns you observed  
-- Show charts, graphs, and tables  ![Visualization Example](images/screenshot.png) 
+- Show charts, graphs, and tables  ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png) 
 - Include important observations or correlations found in the data  
 
 ---
