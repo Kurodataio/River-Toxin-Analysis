@@ -2,7 +2,7 @@
 
  The project is to conduct an exploratory data analysis on EcoGuard's river toxin data using Python. 
 
-[Notebook Link](https://github.com/Kurodataio/Environmental Toxin Analysis in River Systems.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/Environmental_Toxin_Analysis_in_River_Systems.ipynb)  
 
 ---
 
