@@ -34,8 +34,9 @@ The task will be to perform an exploratory data analysis on the river toxin data
 
 - The dataset is sourced from ITOnlinelearning/Kaggle
 - The dataset has 1305 rows and 10 columns/features
+- The dataset covers teh period 2018 - 2023
 - The Key features/columns used are various toxin levels, pH levels, temperature, and geographical data
-- Any preprocessing or cleaning steps  
+- The data set was checked for missing values and appropiate type. A basic analysis was also performed.
 
 Dataset: National_River_Toxin_Dataset 1.csv
 
@@ -63,6 +64,9 @@ Dataset: National_River_Toxin_Dataset 1.csv
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>  
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/MIT%20License-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License">
 </p>
 
 ---
@@ -93,25 +97,29 @@ Instructions for using the project:
 2. Run each cell sequentially to reproduce the analysis  
 3. Visualizations and results will be generated automatically  
 
-Include screenshots of your visualizations if available:  
-
- ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png) 
-
 ---
 
 ## Analysis & Visualizations 
 
-Summarize your findings, insights, and visualizations:
+- There were many missing values across many features. We decided to use the average feature value to replace missing values
+- The Yangtze has the highest toxins of heavy metals(Lead, Nercury and Arsenic)
+- The Amazon has the lowest toxins of heavy metals(Lead, Nercury and Arsenic)
+ ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png)
 
-- Describe the key trends and patterns you observed  
-- Show charts, graphs, and tables  ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png) 
-- Include important observations or correlations found in the data  
+The plot of Lead Levels over time also depicts Yangtze river as most polluted with Lead.
+ ![Lead Levels over time](images/Lead_Levels_over_time.png)
+
+- There is correlation between Lead, Arsenic and Mercury toxins in the river system. These heavy metals pose the highest risk to human health
+- The heatmap indicates a negative correlation of temperature to dissolved oxygen. In other words higher temprature indicate lower dissoved oxygen.
+ ![Feature Heatmap](images/Parameter_heatmap_correlation.png)
+
 
 ---
 
 ## Conclusion 
 
-- Summarize the outcome of your analysis  
+- The data suggests a strong correlation between industrialization and river toxin levels. The Amazon which we assume is teh least industralized area, has the lowest heavy metal contaminants
+- Heavy metals tend to be a byproduct of industrial discharge and mining runoff
 - What are the main insights or takeaways?  
 - How could this analysis inform decision-making?  
 - Recommendations or next steps for further analysis  
@@ -127,7 +135,7 @@ Summarize your findings, insights, and visualizations:
 
 ## License
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) 
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). EcoGuard is a fictional commpany.
 ---
 
 <p align="center"><strong>Thanks for visiting! 🚀</strong></p>
