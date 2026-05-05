@@ -114,9 +114,9 @@ The plot of Lead Levels over time also depicts Yangtze river as most polluted wi
  ![Feature Heatmap](images/Parameter_heatmap_correlation.png)
 
 - Linear Regression analysis for toxin levels and pH
-  Linear Regression Coefficients: [0.80294889]
-  Linear Regression Intercept: -2.89324669492776
-  pH=0.8029×Toxin Level−2.8932
+  - Linear Regression Coefficients: [0.80294889]
+  - Linear Regression Intercept: -2.89324669492776
+  - pH=0.8029×Toxin Level−2.8932
 - The value of 0.80 suggests a strong positive relationship between pH levels and toxin levels
 
 ---
@@ -125,7 +125,7 @@ The plot of Lead Levels over time also depicts Yangtze river as most polluted wi
 
 - The data suggests a strong correlation between industrialization and river toxin levels. The Amazon which we assume is the least industralized area, has the lowest heavy metal contaminants
 - Heavy metals tend to be a byproduct of industrial discharge and mining runoff
--Lower pH (more acidic water) seems linked to increase Lead levels, higher lead levels is correlated with other heavy metals.
+- Lower pH (more acidic water) seems linked to increase Lead levels, higher lead levels is correlated with other heavy metals.
 - The Nile is the mean for river polution. The t-test between the Amazon and Nile river comparison suggest a significant difference in polution levels which is not due to noise or chance.
 
 ---
@@ -140,7 +140,7 @@ The plot of Lead Levels over time also depicts Yangtze river as most polluted wi
 ## License
 
 <p>
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). EcoGuard is a fictional commpany.
+This project is licensed under the [MIT License]("https://choosealicense.com/licenses/mit/"). EcoGuard is a fictional commpany.
 </p>
 
 ---
