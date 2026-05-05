@@ -34,7 +34,7 @@ The task will be to perform an exploratory data analysis on the river toxin data
 
 - The dataset is sourced from ITOnlinelearning/Kaggle
 - The dataset has 1305 rows and 10 columns/features
-- The dataset covers teh period 2018 - 2023
+- The dataset covers the period 2018 - 2023
 - The Key features/columns used are various toxin levels, pH levels, temperature, and geographical data
 - The data set was checked for missing values and appropiate type. A basic analysis was also performed.
 
@@ -102,27 +102,31 @@ Instructions for using the project:
 ## Analysis & Visualizations 
 
 - There were many missing values across many features. We decided to use the average feature value to replace missing values
-- The Yangtze has the highest toxins of heavy metals(Lead, Nercury and Arsenic)
-- The Amazon has the lowest toxins of heavy metals(Lead, Nercury and Arsenic)
+- The Yangtze has the highest toxins of heavy metals (Lead, Nercury and Arsenic)
+- The Amazon has the lowest toxins of heavy metals (Lead, Nercury and Arsenic)
  ![Average Lead Levels by River System](images/Average_Lead_Levels_by_River_System.png)
 
 The plot of Lead Levels over time also depicts Yangtze river as most polluted with Lead.
  ![Lead Levels over time](images/Lead_Levels_over_time.png)
 
 - There is correlation between Lead, Arsenic and Mercury toxins in the river system. These heavy metals pose the highest risk to human health
-- The heatmap indicates a negative correlation of temperature to dissolved oxygen. In other words higher temprature indicate lower dissoved oxygen.
+- The heatmap indicates a negative correlation of temperature to dissolved oxygen. In other words higher temprature indicate lower dissolved oxygen.
  ![Feature Heatmap](images/Parameter_heatmap_correlation.png)
 
+- Linear Regression analysis for toxin levels and pH
+  Linear Regression Coefficients: [0.80294889]
+  Linear Regression Intercept: -2.89324669492776
+  pH=0.8029×Toxin Level−2.8932
+- The value of 0.80 suggests a strong positive relationship between pH levels and toxin levels
 
 ---
 
 ## Conclusion 
 
-- The data suggests a strong correlation between industrialization and river toxin levels. The Amazon which we assume is teh least industralized area, has the lowest heavy metal contaminants
+- The data suggests a strong correlation between industrialization and river toxin levels. The Amazon which we assume is the least industralized area, has the lowest heavy metal contaminants
 - Heavy metals tend to be a byproduct of industrial discharge and mining runoff
-- What are the main insights or takeaways?  
-- How could this analysis inform decision-making?  
-- Recommendations or next steps for further analysis  
+-Lower pH (more acidic water) seems linked to increase Lead levels, higher lead levels is correlated with other heavy metals.
+- The Nile is the mean for river polution. The t-test between the Amazon and Nile river comparison suggest a significant difference in polution levels which is not due to noise or chance.
 
 ---
 
@@ -135,7 +139,10 @@ The plot of Lead Levels over time also depicts Yangtze river as most polluted wi
 
 ## License
 
+<p>
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). EcoGuard is a fictional commpany.
+</p>
+
 ---
 
 <p align="center"><strong>Thanks for visiting! 🚀</strong></p>
