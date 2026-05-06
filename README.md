@@ -139,10 +139,7 @@ The plot of Lead Levels over time also depicts Yangtze river as most polluted wi
 
 ## License
 
-<p>
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). EcoGuard is a fictional commpany.
-</p>
 
 ---
 
-<p align="center"><strong>Thanks for visiting! 🚀</strong></p>
